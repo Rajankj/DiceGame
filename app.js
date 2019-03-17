@@ -40,7 +40,7 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
         winningScore=100;
     }
 */
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       document.querySelector(".final-score").value="player-"+(activePlayer+1)+" wins";
     	document.querySelector("#name-" + activePlayer).textContent="Winner!";
     	document.querySelector(".dice").style.display="none";
